@@ -1,9 +1,7 @@
 package main;
-import java.util.Scanner;
 import org.apache.commons.lang3.StringUtils;
-import util.Input;
 
-public class NewMain {
+public class main {
     public static void main(String[] args){
         Input input = new Input();
         String userInput = input.toString("Enter a word");
@@ -18,6 +16,5 @@ public class NewMain {
         System.out.printf("Reversed %s\n", StringUtils.reverse(userInput));
     }
 }
-//        StringUtils
 
 
